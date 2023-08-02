@@ -9,5 +9,6 @@ public class ObakApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ObakApplication.class, args);
 	}
+	//minju
 
 }
