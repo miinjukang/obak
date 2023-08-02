@@ -14,7 +14,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+          Learn React 테스트_민주
         </a>
       </header>
     </div>
