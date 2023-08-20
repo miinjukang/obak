@@ -10,6 +10,7 @@ function App() {
         <Header/>
         <Detail/>
         <Footer/>
+        {/* test */}
     </div>
   );
 }
