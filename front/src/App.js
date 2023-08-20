@@ -10,7 +10,8 @@ function App() {
         <Header/>
         <Detail/>
         <Footer/>
-        {/* test */}
+        {/* test */}   
+        {/* ㅅㄷㄴㅅ */}
     </div>
   );
 }
