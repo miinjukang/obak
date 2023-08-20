@@ -1,0 +1,3 @@
+/* ****************** 메인 ********************** */
+.today-exhibition {float: right; font-size: 15px; line-height: 30px;}
+.today-exhibition > span {font-weight: bold;}
