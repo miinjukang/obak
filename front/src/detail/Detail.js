@@ -20,6 +20,7 @@ const Detail = () => {
                         <div className="col-lg-12 text-center">
                             <div className="breadcrumb__text" style={{color: 'white'}}>
                                 <h3>오늘의 박람회</h3>
+                                {/* 하진테스트 */}
                             </div>
                         </div>
                     </div>
