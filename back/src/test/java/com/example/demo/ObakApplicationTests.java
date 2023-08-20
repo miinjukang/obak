@@ -8,6 +8,7 @@ class ObakApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// 테스트커밋 하진
 	}
 
 }
