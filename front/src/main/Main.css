@@ -1,3 +1,83 @@
 /* ****************** 메인 ********************** */
 .today-exhibition {float: right; font-size: 15px; line-height: 30px;}
 .today-exhibition > span {font-weight: bold;}
+
+/* ****************** 달력 ********************** */
+#calendarBox {padding-top:20px; margin-bottom: 40px; }
+#calHeader {text-align: right;}
+#calHeader .cal-title {padding-left: 10px; float: left;}
+#calHeader .cal-title .text {display:inline-block; font-size: 13px;}
+#calHeader .cal-title .month {margin-right: 5px; font-size: 26px; font-weight: 600;}
+#calHeader .cal-arrow {display: inline;}
+#calHeader .cal-arrow svg {
+    margin-left: 2%;
+    color: transparentize(gray, 0.2);
+    &:hover {
+        transform: scale(1.15);
+        color: #686868;
+    }
+}
+.cal-days {
+  font-weight: 600;
+  font-size: 10px;
+  padding: 2px;
+  color: #686868;
+  margin-bottom: 5px;
+  .cal-col {
+    padding-left: 1%;
+    background: #ddd;
+    border-radius: 10px;
+    line-height: 18px;
+    float: left;
+    width: calc(97% / 7);
+    margin: 0 0.2%;
+  }
+}
+.calendarBody {
+  .cal-row {
+      margin-bottom: 5px;
+    .col {
+      border: 0.4px solid #bbb;
+      border-radius: 3px;
+      font-size: 13px;
+      float: left;
+      width: calc(97% / 7);
+      margin: 0 0.2%;
+      min-height: 120px;
+      span {
+        margin: 4px 0 0 4px;
+      }
+      .not-valid {
+        color: #c4c4c4;
+      }
+      img {
+        opacity: 0.1;
+      }
+    }
+    .col.cell > span {padding-left: 4px;}
+    .col.cell.disabled{
+      border-color: #ddd;
+      color:#ddd;
+    }
+    .col.cell.valid {
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+    .col.cell.selected {
+      border-color: #a7c5e3;
+      background: #a7c5e3;
+      color: #333;
+      font-weight: 600;
+    }
+  }
+}
+
+#calenderList {margin-bottom: 40px;}
+#calenderList .calender-tbl th, 
+#calenderList .calender-tbl td{border: 1px solid #ddd;}
+#calenderList .calender-tbl th{text-align: center; font-size: 13px; line-height: 30px; background-color: #eee;}
+#calenderList .calender-tbl td{padding: 6px 5px;}
+#calenderList .calender-tbl td.no{width: 5%; text-align: center;}
+#calenderList .calender-tbl td.location{width: 17%;}
+#calenderList .calender-tbl td.period{width: 17%; text-align: center;} 

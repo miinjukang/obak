@@ -9,7 +9,7 @@ const Header = () => {
                             <div className="header__top__right">
                                 <div className="header__top__auth">
                                     <ul>
-                                        <li><a href="#!" style={{textDecoration: 'none'}}>로그인</a></li>
+                                        <li><a href="/login" style={{textDecoration: 'none'}}>로그인</a></li>
                                         <li><a href="#!" style={{textDecoration: 'none'}}>공지</a></li>
                                     </ul>
                                 </div>

@@ -1,0 +1,91 @@
+#LoginBox,
+#UserInfoBox {
+  width: 500px;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+.common-box .login-tit {font-size: 30px; font-weight: 600; color: #333; margin-bottom: 50px;}
+#LoginBox .login-btn {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+#LoginBox .login-btn.naver {
+  background: no-repeat left url(/public/img/icon_naver.png);
+  background-size: contain;
+  background-color: #1EC800;
+  color: #fff;
+  border-color: #1EC800;
+}
+#LoginBox .login-btn.kakao {
+  background: no-repeat left url(/public/img/icon_kakao.png);
+  background-size: contain;
+  background-color: #fae100;
+  border-color: #fae100;
+}
+#LoginBox .login-btn.google {background: no-repeat left url(/public/img/icon_google.png); background-size: contain;}
+#LoginBox .login-btn.facebook {
+  background: no-repeat 5px url(/public/img/icon_facebook.png);
+  background-color: #3b5998;
+  background-size: 30px;
+  border-color: #3b5998;
+  color: #fff;
+}
+#LoginBox .login-btn > a {
+  display: block;
+  color: #666;
+  padding: 5px;
+  text-decoration: none;
+}
+#LoginBox .login-btn.naver > a,
+#LoginBox .login-btn.facebook > a {
+  color: #fff;
+}
+
+.user-info-tbl {
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.user-info-tbl th {
+  width: 150px;
+  padding: 5px 0;
+  color: #444;
+}
+.user-info-tbl td {
+  padding: 5px 0;
+}
+.user-info-tbl td > input[type="text"] {
+  border: 1px solid #c4c4c4;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 25px;
+  width: 100%;
+}
+.user-info-tbl td > input[type="text"].disabled{background-color: #eee;}
+.user-info-tbl td > input[type="radio"],
+.user-info-tbl td > label {
+  display: inline-block;
+}
+.user-info-tbl td > label {
+  margin-left: 5px;
+  margin-right: 15px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.btn-save {
+  display: block;
+  background-color: green;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+}

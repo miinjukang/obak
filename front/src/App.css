@@ -117,7 +117,7 @@ button{
 
 /* ******************  공통 Layout ********************** */
 .area{ width:1200px; margin:0px auto; } /* width 홈페이지 컨텐츠 가로값에 맞게 변경 */
-/*.clearfix{*zoom:1;}*/
+/*.clearfix{*zoom : 1;}*/
 .clearfix:after{clear:both; display:block; content:"";}
 
 /* ******************  HEADER ********************** */
