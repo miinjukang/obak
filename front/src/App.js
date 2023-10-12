@@ -9,6 +9,7 @@ import Footer from './footer/Footer';
 
 import Main from "./main/Main";
 import Login from "./common/Login";
+import UserInfo from "./common/UserInfo";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/userInfo" element={<UserInfo />} />
         </Routes>
         <Footer/>
     </div>
