@@ -1,26 +1,25 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
-
+import { Routes, Route } from "react-router-dom";
 /* import logo from './logo.svg'; */
-import './App.css';
-import Header from './header/Header';
-import Detail from './detail/Detail';
-import Footer from './footer/Footer';
-
+import "./App.css";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
 import Main from "./main/Main";
 import Login from "./common/Login";
-import UserInfo from "./common/UserInfo";
+import Notice from "./notice/Notice";
+import Detail from "./detail/Detail";
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/userInfo" element={<UserInfo />} />
-        </Routes>
-        <Footer/>
+      <Header />
+      <Routes>
+        <Route path="/" exact element={<Main />} />
+        <Route path="/login" exact element={<Login />} />
+        <Route path="/notice" exact element={<Notice />} />
+        <Route path="/detail" exact element={<Detail />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

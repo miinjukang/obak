@@ -1,0 +1,140 @@
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.breadcrumb_option {
+  padding: 130px 0;
+}
+
+.breadcrumb__text h3 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.room__pic__item {
+  height: 400px;
+  position: relative;
+  background-image: url(../assets/images/전시회썸네일.jpeg);
+}
+
+.room__pic__slider {
+  margin-bottom: 60px;
+}
+
+.room__text {
+  margin-bottom: 60px;
+}
+
+.room__text.right__text {
+  padding-left: 85px;
+}
+
+.room__text h3 {
+  color: #19191a;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.room__text ul {
+  margin-bottom: 30px;
+  text-align: left;
+  width: 80%;
+}
+
+.room__text ul li {
+  list-style: none;
+  font-size: 18px;
+  color: #1d1c1c;
+  line-height: 36px;
+}
+
+.room__text ul li span {
+  display: inline-block;
+  width: 130px;
+}
+
+.set_bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.spad {
+  padding-top: 100px;
+}
+
+.heart_btn_bg {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.empty_heart {
+  background-image: url(../assets/images/empty-heart.png);
+}
+
+.full_heart {
+  background-image: url(../assets/images/heart.png);
+}
+
+.talk_icon {
+  background-image: url(../assets/images/talk-icon.png);
+  width: 30px;
+  height: 30px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.like_btn {
+  width: 100%;
+  text-align: right; /* 오른쪽에 두면 주석 처리*/
+  padding-left: 2rem;
+}
+
+.comment_area {
+  margin-left: 150px;
+  font-size: 13px;
+}
+
+.comment_text {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 80%;
+}
+
+.comment_text form {
+  display: flex;
+  width: 100%;
+}
+
+.comment_text textarea {
+  width: 100%;
+  border-radius: 5px;
+  resize: none;
+  border: 0.5px solid;
+}
+
+.comment_text button {
+  width: 50px;
+  border-radius: 5px;
+  background-color: #ccc;
+  border: none;
+  margin-left: 10px;
+}
+
+.comment_list hr {
+  margin: 0px;
+}
+
+.user {
+  font-size: 14px;
+  margin: 0px;
+}
