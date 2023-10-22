@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import HeartButton from "./Heart";
+import BookMarkButton from "./BookMark";
 import Comments from "./Comments";
 
 import detailStyles from "./Detail.module.css";
@@ -29,7 +29,7 @@ const Detail = () => {
           <div className="row">
             <div className="col-lg-6 p-0 order-lg-3 order-md-3 col-md-6">
               <div className={detailStyles.like_btn}>
-                <HeartButton />
+                <BookMarkButton />
               </div>
               <div className={detailStyles.room__pic__slider}>
                 <div

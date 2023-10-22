@@ -1,5 +1,5 @@
 import commentsStyles from "./Detail.module.css";
-
+import HeartInputButton from "./HeartInput";
 import { useState, useEffect } from "react";
 
 const Comments = () => {
@@ -19,6 +19,9 @@ const Comments = () => {
     <div className={commentsStyles.comment_area}>
       {/* <div className={commentsStyles.talk_icon}></div> */}
       <h5>COMMENT</h5>
+      <div className={commentsStyles.heart_input_area}>
+        <HeartInputButton />
+      </div>
       <div className={commentsStyles.comment_text}>
         <form onSubmit={onSubmit}>
           <textarea
