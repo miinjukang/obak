@@ -1,9 +1,12 @@
 import SideNav from "../nav/SideNav";
+import noticeStyles from "./Notice.module.css";
 
 const Notice = () => {
   return (
     <div>
-      <SideNav></SideNav>
+      <div className={noticeStyles.nav_bar}>
+        <SideNav></SideNav>
+      </div>
     </div>
   );
 };

@@ -49,6 +49,7 @@
   font-size: 18px;
   color: #1d1c1c;
   line-height: 36px;
+  margin-bottom: 15px;
 }
 
 .room__text ul li span {
@@ -66,7 +67,7 @@
   padding-top: 100px;
 }
 
-.heart_btn_bg {
+.bookMark_bg {
   width: 30px;
   height: 30px;
   position: relative;
@@ -75,12 +76,12 @@
   background-position: top center;
 }
 
-.empty_heart {
-  background-image: url(../assets/images/empty-heart.png);
+.non_mark {
+  background-image: url(../assets/images/non-mark.png);
 }
 
-.full_heart {
-  background-image: url(../assets/images/heart.png);
+.book_mark {
+  background-image: url(../assets/images/bookmark-black.png);
 }
 
 .talk_icon {
@@ -99,13 +100,35 @@
   padding-left: 2rem;
 }
 
+.like_bg {
+  background-image: url(../assets/images/heart.png);
+}
+
+.unlike_bg {
+  background-image: url(../assets/images/empty-heart.png);
+}
+
 .comment_area {
   margin-left: 150px;
   font-size: 13px;
 }
 
+.heart_input_area {
+  margin-left: 30px;
+}
+
+.unlike_bg {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: top center;
+  margin-right: 1px;
+}
+
 .comment_text {
-  margin-top: 20px;
+  margin-top: 3px;
   margin-left: 30px;
   width: 80%;
 }

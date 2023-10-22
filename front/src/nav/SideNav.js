@@ -1,25 +1,19 @@
-import Nav from "./Nav";
-import NavLink from "./NavLink";
-import NavList from "./NavList";
-
-function isActive(path) {
-  return window.location.pathname.startsWith(path);
-}
-
+import { useState } from "react";
+import navStyles from "./Nav.module.css";
 function SideNav() {
+  const [isOpen, setMenu] = useState(true);
+  const toggleMenu = () => {
+    setMenu((currentIsOpen) => !currentIsOpen);
+  };
   return (
-    <Nav>
-      <NavList>
-        <NavLink to="/Notice" active={isActive("/Notice")}>
-          고객센터
-        </NavLink>
-        <NavList expanded={isActive("/Notice")}>
-          <NavLink to="/Notice" active={isActive("/Notice")}>
-            공지사항
-          </NavLink>
-        </NavList>
-      </NavList>
-    </Nav>
+    <div>
+      <ul className={navStyles.big_menu} onClick={() => toggleMenu()}>
+        고객센터
+      </ul>
+      <ul className={isOpen ? navStyles.show_menu : navStyles.hide_menu}>
+        <li>공지사항</li>
+      </ul>
+    </div>
   );
 }
 
